@@ -71,16 +71,22 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je startniveau:** blauw
 
-**Je focus:** responsive
+**Je focus:** surface plane
 
-**Je opdracht:** De website van Spotify werkt alleen op desktop, niet op mobiel. Ik wil graag deze website namaken en zorgen dat hij op mobiel ook gebruikt kan worden. 
+**Je opdracht:** Ik ga de website van Genius namaken.
 
-https://open.spotify.com/playlist/5W0qooXmY9hwosf4OzymUL 
+https://genius.com
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/afspeellijst.PNG" width="375px" alt="De afspeellijst pagina">
+<img src="images/home1.PNG" width="375px" alt="De homepagina">
+<img src="images/home2.PNG" width="375px" alt="De homepagina">
+<img src="images/home3.PNG" width="375px" alt="De homepagina">
+<img src="images/home4.PNG" width="375px" alt="De homepagina">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/liedje.PNG" width="375px" alt="Het liedje dat je luistert">
+<img src="images/songtekst1.PNG" width="375px" alt="De songtekst pagina">
+<img src="images/songtekst2.PNG" width="375px" alt="De songtekst pagina">
+<img src="images/songtekst3.PNG" width="375px" alt="De songtekst pagina">
+<img src="images/songtekst4.PNG" width="375px" alt="De songtekst pagina">
