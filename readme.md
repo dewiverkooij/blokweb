@@ -11,9 +11,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 3. -...-
 
 ## Huiswerkopdrachten
-https://codepen.io/dewi-verkooij/pen/XWKyQVw  
-https://codepen.io/dewi-verkooij/pen/gOMqovM  
-https://codepen.io/dewi-verkooij/pen/KKMJQpx
+Typografie: https://codepen.io/dewi-verkooij/pen/XWKyQVw  
+Positioneren 1: https://codepen.io/dewi-verkooij/pen/gOMqovM  
+Positioneren 2: https://codepen.io/dewi-verkooij/pen/KKMJQpx
 
 
 ## Eindgesprek (week 7/8)
