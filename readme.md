@@ -10,6 +10,10 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 2. -bron 2-
 3. -...-
 
+## Huiswerkopdrachten
+https://codepen.io/dewi-verkooij/pen/XWKyQVw
+https://codepen.io/dewi-verkooij/pen/gOMqovM
+https://codepen.io/dewi-verkooij/pen/KKMJQpx
 
 
 ## Eindgesprek (week 7/8)
