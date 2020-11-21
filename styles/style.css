@@ -1,5 +1,190 @@
-/* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+/* FFFF64 */
+
+* {
+    font-family: 'Noto Sans', sans-serif;
 }
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #FFFF64;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 41px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 12px;
+}
+
+header div {
+    flex: 1;
+}
+
+header div span:nth-child(2) {
+    margin-left: 10px;
+}
+
+header img {
+    height: 100%;
+    flex: 1;
+}
+
+header a {
+    font-size: .8em;
+    font-weight: bold;
+    flex: 1;
+    text-align: right;
+    text-transform: uppercase;
+}
+
+main {
+    margin-top: 51px;
+}
+
+main section:first-of-type {
+    position: relative;
+}
+
+main section:first-of-type > div:first-of-type {
+    position: absolute;
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background-image: url('/images/album-cover.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    z-index: -1;
+}
+
+main section:first-of-type > div:first-of-type::after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.6) 30%,#000 80%);
+}
+
+main section:first-of-type div:nth-child(2) {
+    color: white;
+    z-index: 1;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+h1 {
+    color: #FFFF64;
+    font-size: 2em;
+    margin-bottom: 5px;
+
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h2 {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 1.3em;
+    color: #e9e9e9;
+}
+
+main section:first-of-type div:nth-child(2) p {
+    padding: 15px;
+    font-size: .8em;
+    line-height: 1.6em;
+    color: #e9e9e9;
+    border-bottom: 1px solid #e9e9e9;
+    border-top: 1px solid #e9e9e9;
+}
+
+main section:first-of-type div:nth-child(2) p a {
+    display: block;
+    color: #FFFF64;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+main section:first-of-type div:nth-child(2) p a span {
+    font-size: .8em;
+    vertical-align: middle;
+    font-weight: lighter;
+}
+
+main section:first-of-type div:nth-child(2) > span {
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+}
+
+main section:first-of-type div:nth-child(2) > span > span span {
+    display: block;
+}
+
+main section:first-of-type div:nth-child(2) > span > span span {
+    text-transform: uppercase;
+    font-size: .7em;
+    color: #9a9a9a;
+    letter-spacing: 0.05em;
+}
+
+main section:first-of-type strong {
+    font-size: .9em;
+    font-weight: bold;
+}
+
+main section:first-of-type img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 2px solid #38ef51;
+}
+
+main section:first-of-type div:nth-child(2) div {
+    padding: 15px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main section:first-of-type div:nth-child(2) div a span:first-child {
+    vertical-align: middle;
+}
+
+main section:first-of-type div:nth-child(2) div a span:nth-child(2) {
+    text-transform: uppercase;
+    font-size: .8em;
+}
+
+main section:first-of-type div:nth-child(2) div > span > span {
+    font-size: .7em;
+    color: #9a9a9a;
+}
+
+main section:first-of-type div:nth-child(2) div > span > span span:first-child {
+    vertical-align: middle;
+    font-size: .95em;
+    margin-right: 3px;
+    margin-left: 10px;
+}
+
+
+
 
