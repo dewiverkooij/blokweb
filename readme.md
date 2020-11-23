@@ -16,7 +16,8 @@ Positioneren 1: https://codepen.io/dewi-verkooij/pen/gOMqovM
 Positioneren 2: https://codepen.io/dewi-verkooij/pen/KKMJQpx  
 Flexbox 1: https://codepen.io/dewi-verkooij/pen/RwROvWN?editors=1100  
 Flexbox 2: https://codepen.io/dewi-verkooij/pen/PozvzjR?editors=1100  
-
+JS 3-stap 1: https://codepen.io/dewi-verkooij/pen/xxOvgXv  
+JS 3-stap 2: https://codepen.io/dewi-verkooij/pen/WNxVpgq  
 
 ## Eindgesprek (week 7/8)
 
