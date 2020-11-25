@@ -63,9 +63,9 @@ en wat de echte Genius website is.
 
 | Noa Bos            | Daan              | Inez             | Niels          | Dewi            |
 | ---                | ---               | ---              | ---            | ---             |
-| Moet ik nog search | Animatie trigger  | Hoe maak je de   |                | Mag je dingen   |
-| bar, tweede pagina,| en element bewegen| header responsive|                | aanpassen? (bv  |
-| navigatie icons    | als je scrollt    | (heel anders)?   |                | header fixed)   |
+| Moet ik nog search | Animatie laten    | Hoe maak je de   | Hoe laat je een| Mag je dingen   |
+| bar, tweede pagina,| triggeren als het | header responsive| element bewegen| aanpassen? (bv  |
+| navigatie icons    | element verschijnt| (heel anders)?   | als je scrollt?| header fixed)   |
 
 ### Verslag van meeting
 
