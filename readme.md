@@ -57,6 +57,11 @@ en wat de echte Genius website is.
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
 
+<img src="images/voortgang1.jpg" width="375px" alt="Voortgang 1">
+Op dit gedeelte ben ik het meest trots, omdat het bijna 1 op 1 hetzelfde is als de website
+van Genius. De achtergrond was even lastig met de gradient, en ook het uitlijnen van alle
+losse elementen kostte even wat tijd. 
+
 ### Agenda voor meeting
 
 -samen met je groepje opstellen-
