@@ -16,6 +16,8 @@ Positioneren 1: https://codepen.io/dewi-verkooij/pen/gOMqovM
 Positioneren 2: https://codepen.io/dewi-verkooij/pen/KKMJQpx  
 Flexbox 1: https://codepen.io/dewi-verkooij/pen/RwROvWN?editors=1100  
 Flexbox 2: https://codepen.io/dewi-verkooij/pen/PozvzjR?editors=1100  
+JS 3-stap 1: https://codepen.io/dewi-verkooij/pen/xxOvgXv  
+JS 3-stap 2: https://codepen.io/dewi-verkooij/pen/WNxVpgq  
 
 
 ## Eindgesprek (week 7/8)
@@ -46,6 +48,11 @@ Flexbox 2: https://codepen.io/dewi-verkooij/pen/PozvzjR?editors=1100
 
 -dit ging goed & dit was lastig-
 
+Ik had verwacht dat het me iets makkelijker af zou gaan. De website zag er niet heel ingewikkeld uit,
+maar ik merk dat ik er toch aardig wat moeite mee heb en ik er veel langer mee bezig ben dan gedacht. 
+Wel ben ik heel blij met wat ik tot nu toe heb, omdat het bijna niet te zien is wat mijn website is 
+en wat de echte Genius website is. 
+
 **Screenshot(s):**
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
@@ -54,11 +61,11 @@ Flexbox 2: https://codepen.io/dewi-verkooij/pen/PozvzjR?editors=1100
 
 -samen met je groepje opstellen-
 
-| Noa Bos             | Daan               | Inez         | Niels            | Dewi            |
-| ---                 | ---                | ---          | ---              | ---             |
-| Moet ik nog search  | en dit             | en ik dit    | en dan ik dat    | Mag je dingen   |
-| bar, tweede pagina, | dit als er tijd is | nog een punt | dit wil ik zeker | aanpassen? (bv  |
-| navigatie icons     | ...                | ...          | ...              | header fixed)   |
+| Noa Bos            | Daan              | Inez             | Niels          | Dewi            |
+| ---                | ---               | ---              | ---            | ---             |
+| Moet ik nog search | Animatie trigger  | Hoe maak je de   |                | Mag je dingen   |
+| bar, tweede pagina,| en element bewegen| header responsive|                | aanpassen? (bv  |
+| navigatie icons    | als je scrollt    | (heel anders)?   |                | header fixed)   |
 
 ### Verslag van meeting
 
