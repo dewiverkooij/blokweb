@@ -16,8 +16,7 @@ Positioneren 1: https://codepen.io/dewi-verkooij/pen/gOMqovM
 Positioneren 2: https://codepen.io/dewi-verkooij/pen/KKMJQpx  
 Flexbox 1: https://codepen.io/dewi-verkooij/pen/RwROvWN?editors=1100  
 Flexbox 2: https://codepen.io/dewi-verkooij/pen/PozvzjR?editors=1100  
-JS 3-stap 1: https://codepen.io/dewi-verkooij/pen/xxOvgXv  
-JS 3-stap 2: https://codepen.io/dewi-verkooij/pen/WNxVpgq  
+
 
 ## Eindgesprek (week 7/8)
 
@@ -55,11 +54,11 @@ JS 3-stap 2: https://codepen.io/dewi-verkooij/pen/WNxVpgq
 
 -samen met je groepje opstellen-
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Noa Bos             | Daan               | Inez         | Niels            | Dewi            |
+| ---                 | ---                | ---          | ---              | ---             |
+| Moet ik nog search  | en dit             | en ik dit    | en dan ik dat    | Mag je dingen   |
+| bar, tweede pagina, | dit als er tijd is | nog een punt | dit wil ik zeker | aanpassen? (bv  |
+| navigatie icons     | ...                | ...          | ...              | header fixed)   |
 
 ### Verslag van meeting
 
