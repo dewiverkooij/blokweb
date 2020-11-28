@@ -76,7 +76,7 @@ losse elementen kostte even wat tijd.
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Als je kan uitleggen waarom je bepaalde dingen aanpast, mag het. Zo mag ik dus de header sticky maken als ik vind dat dit beter is. Ik mag een class geven aan de groene en grijze tekst in de lyrics, als ik dit verder maar niet te vaak doe, alleen op de momenten dat het echt duidelijk veel handiger is. 
 
 
 
