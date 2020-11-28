@@ -18,6 +18,8 @@ Flexbox 1: https://codepen.io/dewi-verkooij/pen/RwROvWN?editors=1100
 Flexbox 2: https://codepen.io/dewi-verkooij/pen/PozvzjR?editors=1100  
 JS 3-stap 1: https://codepen.io/dewi-verkooij/pen/xxOvgXv  
 JS 3-stap 2: https://codepen.io/dewi-verkooij/pen/WNxVpgq  
+Grid 1: https://codepen.io/dewi-verkooij/pen/WNGbobY?editors=1100  
+Grid 2: https://codepen.io/dewi-verkooij/pen/YzGPpEY?editors=1100  
 
 
 ## Eindgesprek (week 7/8)
