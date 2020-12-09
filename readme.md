@@ -6,8 +6,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
+1. https://www.w3schools.com/html/html_tables.asp
+2. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 3. -...-
 
 ## Huiswerkopdrachten
@@ -42,12 +42,17 @@ Grid 2: https://codepen.io/dewi-verkooij/pen/YzGPpEY?editors=1100
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Ik had verwacht dat ik veel sneller klaar zou zijn. Ik heb dan ook niet mijn doel behaald. Eigenlijk wilde ik nu allebei de pagina's af hebben, maar helaas is alleen 1 pagina echt af. Ik ben overigens wel heel trots op hoe de pagina geworden is. Ik wil hier wel even een klein feedback puntje achterlaten: in het begin toen we een website moesten kiezen wist ik niet goed hoe ik moest kiezen, achteraf denk ik dat ik, voor mijn doen, een veel te lastige website heb gekozen. 
 
 
 **Screenshot(s):**
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
+
+<img src="images/voortgang2-1.PNG" width="375px" alt="Voortgang 2">
+<img src="images/voortgang2-2.PNG" width="375px" alt="Voortgang 2">
+Op dit gedeelte ben ik het meest trots, omdat het bijna 1 op 1 hetzelfde is als de website
+van Genius. Vooral de tabel die ik gemaakt heb was lastig en de footer. Wat betreft de andere pagina heb ik alleen nog de HTML gemaakt. Dit omdat ik niet had ingeschat dat alles zo lang zou duren.
 
 
 ### Agenda voor meeting
@@ -56,9 +61,9 @@ Grid 2: https://codepen.io/dewi-verkooij/pen/YzGPpEY?editors=1100
 
 | Noa Bos            | Daan              | Inez             | Niels          | Dewi            |
 | ---                | ---               | ---              | ---            | ---             |
-| Hoe banner anders  | Hoeveel comments  | Hoe zorg je dat  | Hoe laat je een| Hoeveel anima-  |
-| met hover tekst op | moet je ongeveer  | site op meerdere | element bewegen| ties moet ik    |
-| mobiel en desktop  | in je code hebben | telefoons werkt  | als je scrollt?| ongeveer maken  |
+| Hoe banner anders  | Hoeveel comments  | Hoe zorg je dat  |                | Hoeveel anima-  |
+| met hover tekst op | moet je ongeveer  | site op meerdere |                | ties moet ik    |
+| mobiel en desktop  | in je code hebben | telefoons werkt  |                | ongeveer maken  |
 
 ### Verslag van meeting
 
