@@ -50,11 +50,11 @@ main {
     margin-top: 51px;
 }
 
-main > section:first-of-type {
+.lyrics main > section:first-of-type {
     position: relative;
 }
 
-main > section:first-of-type > div:first-of-type {
+.lyrics main > section:first-of-type > div:first-of-type {
     position: absolute;
     
     top: 0;
@@ -69,7 +69,7 @@ main > section:first-of-type > div:first-of-type {
     z-index: -1;
 }
 
-main > section:first-of-type > div:first-of-type::after {
+.lyrics main > section:first-of-type > div:first-of-type::after {
     content: '';
     position: absolute;
     top: 0px;
@@ -80,16 +80,16 @@ main > section:first-of-type > div:first-of-type::after {
     background-image: linear-gradient(to bottom,rgba(0,0,0,0.6) 30%,#000 80%);
 }
 
-main > section:first-of-type div:nth-child(2) {
+.lyrics main > section:first-of-type div:nth-child(2) {
     color: white;
     z-index: 1;
 }
 
-h1, h2, h3 {
+.lyrics h1, h2, h3 {
     margin: 0;
 }
 
-h1 {
+.lyrics h1 {
     color: #FFFF64;
     font-size: 2em;
     margin-bottom: 5px;
@@ -99,14 +99,14 @@ h1 {
     padding-right: 15px;
 }
 
-h2 {
+.lyrics h2 {
     padding-left: 15px;
     padding-right: 15px;
     font-size: 1.3em;
     color: #e9e9e9;
 }
 
-main section:first-of-type div:nth-child(2) p {
+.lyrics main section:first-of-type div:nth-child(2) p {
     padding: 15px;
     font-size: .8em;
     line-height: 1.6em;
@@ -115,42 +115,42 @@ main section:first-of-type div:nth-child(2) p {
     border-top: 1px solid #e9e9e9;
 }
 
-main section:first-of-type div:nth-child(2) p a {
+.lyrics main section:first-of-type div:nth-child(2) p a {
     display: block;
     color: #FFFF64;
     text-decoration: none;
     text-transform: lowercase;
 }
 
-main section:first-of-type div:nth-child(2) p a span {
+.lyrics main section:first-of-type div:nth-child(2) p a span {
     font-size: .8em;
     vertical-align: middle;
     font-weight: lighter;
 }
 
-main section:first-of-type div:nth-child(2) > span {
+.lyrics main section:first-of-type div:nth-child(2) > span {
     display: flex;
     align-items: center;
     padding: 0px 15px;
 }
 
-main section:first-of-type div:nth-child(2) > span > span span {
+.lyrics main section:first-of-type div:nth-child(2) > span > span span {
     display: block;
 }
 
-main section:first-of-type div:nth-child(2) > span > span span {
+.lyrics main section:first-of-type div:nth-child(2) > span > span span {
     text-transform: uppercase;
     font-size: .7em;
     color: #9a9a9a;
     letter-spacing: 0.05em;
 }
 
-main section:first-of-type strong {
+.lyrics main section:first-of-type strong {
     font-size: .9em;
     font-weight: bold;
 }
 
-main > section:first-of-type img {
+.lyrics main > section:first-of-type img {
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -158,7 +158,7 @@ main > section:first-of-type img {
     border: 2px solid #38ef51;
 }
 
-main section:first-of-type div:nth-child(2) div {
+.lyrics main section:first-of-type div:nth-child(2) div {
     padding: 15px;
     margin-top: 10px;
     padding-bottom: 5px;
@@ -167,27 +167,27 @@ main section:first-of-type div:nth-child(2) div {
     align-items: center;
 }
 
-main section:first-of-type div:nth-child(2) div a {
+.lyrics main section:first-of-type div:nth-child(2) div a {
     text-decoration: none;
     color: #e9e9e9;
 }
 
 
-main section:first-of-type div:nth-child(2) div a span:first-child {
+.lyrics main section:first-of-type div:nth-child(2) div a span:first-child {
     vertical-align: middle;
 }
 
-main section:first-of-type div:nth-child(2) div a span:nth-child(2) {
+.lyrics main section:first-of-type div:nth-child(2) div a span:nth-child(2) {
     text-transform: uppercase;
     font-size: .8em;
 }
 
-main section:first-of-type div:nth-child(2) div > span > span {
+.lyrics main section:first-of-type div:nth-child(2) div > span > span {
     font-size: .7em;
     color: #9a9a9a;
 }
 
-main section:first-of-type div:nth-child(2) div > span > span span:first-child {
+.lyrics main section:first-of-type div:nth-child(2) div > span > span span:first-child {
     vertical-align: middle;
     font-size: .95em;
     margin-right: 3px;
@@ -196,35 +196,35 @@ main section:first-of-type div:nth-child(2) div > span > span span:first-child {
 
 /* Lyrics deel */
 
-main section:nth-of-type(2) {
+.lyrics main section:nth-of-type(2) {
     padding: 0px 15px;
 
 }
 
-main section:nth-of-type(2) p {
+.lyrics main section:nth-of-type(2) p {
     white-space: pre-line;
     line-height: 1.8;
     font-size: .9em;
 }
 
-main section:nth-of-type(2) p span {
+.lyrics main section:nth-of-type(2) p span {
     background-color: #e9e9e9;
     box-shadow: 0.01em 0 0 #e9e9e9, -0.01em 0 0 #e9e9e9;
 }
 
-main section:nth-of-type(2) p span.verified {
+.lyrics main section:nth-of-type(2) p span.verified {
     background-color: #99f2a5;
     box-shadow: 0.01em 0 0 #99f2a5, -0.01em 0 0 #99f2a5;
 }
 
 /* Rest */
 
-main section:nth-of-type(3) {
+.lyrics main section:nth-of-type(3) {
     padding: 15px;
     border-top: 20px lightgrey solid;
 }
 
-h3 {
+.lyrics h3 {
     text-transform: uppercase;
     color: #9a9a9a;
     margin-bottom: 15px;
@@ -233,20 +233,20 @@ h3 {
     letter-spacing: 0.05em;
 }
 
-main section:nth-of-type(4) {
+.lyrics main section:nth-of-type(4) {
     padding: 15px;
     border-top: 20px lightgrey solid;
 }
 
-main section:nth-of-type(4) div {
+.lyrics main section:nth-of-type(4) div {
     position: relative;
 }
 
-main section:nth-of-type(4) div img {
+.lyrics main section:nth-of-type(4) div img {
     width: 100%;
 }
 
-main section:nth-of-type(4) div span {
+.lyrics main section:nth-of-type(4) div span {
     position: absolute;
     bottom: 15px;
     right: 15px;
@@ -255,22 +255,22 @@ main section:nth-of-type(4) div span {
     font-size: 2em;
 }
 
-main section:nth-of-type(4) strong {
+.lyrics main section:nth-of-type(4) strong {
     text-transform: capitalize;
     display: block;
     margin-top: 5px;
 }
 
-main section:nth-of-type(5) {
+.lyrics main section:nth-of-type(5) {
     padding: 15px;
     border-top: 20px lightgrey solid;
 }
 
-main section:nth-of-type(5) h3 {
+.lyrics main section:nth-of-type(5) h3 {
     text-transform: none;
 }
 
-input {
+.lyrics input {
     box-sizing: border-box;
     width: 100%;
     padding: 5px;
@@ -278,7 +278,7 @@ input {
     border-style: solid;
 }
 
-main section:nth-of-type(6) {
+.lyrics main section:nth-of-type(6) {
     padding: 15px;
     border-top: 20px lightgrey solid;
     display: flex;
@@ -287,48 +287,48 @@ main section:nth-of-type(6) {
     align-items: center;
 }
 
-main section:nth-of-type(6) h3 {
+.lyrics main section:nth-of-type(6) h3 {
     color: rgb(255, 65, 128);
     font-size: 0.8em;
     font-weight: bold;
     margin-bottom: 0;
 }
 
-main section:nth-of-type(6) p {
+.lyrics main section:nth-of-type(6) p {
     line-height: 1.6em;
     font-size: 0.9em;
     letter-spacing: 0.05em;
     
 }
 
-main section:nth-of-type(6) span {
+.lyrics main section:nth-of-type(6) span {
     color: rgb(255, 65, 128);
     font-size: 2em;
     vertical-align: middle;
 }
 
-main section:nth-of-type(7) {
+.lyrics main section:nth-of-type(7) {
     padding: 15px;
     border-top: 20px lightgrey solid;
 }
 
-main section:nth-of-type(7) > div {
+.lyrics main section:nth-of-type(7) > div {
     display: flex;
     align-items: center;
     margin-bottom: 5px;
 }
 
-main section:nth-of-type(7) div > div {
+.lyrics main section:nth-of-type(7) div > div {
     position: relative;
     margin-right: 10px;
 }
 
-main section:nth-of-type(7) div > div img {
+.lyrics main section:nth-of-type(7) div > div img {
     width: 100%;
     filter: brightness(50%);
 }
 
-main section:nth-of-type(7) div > div span {
+.lyrics main section:nth-of-type(7) div > div span {
     position: absolute;
     bottom: 10px;
     right: 10px;
@@ -336,25 +336,25 @@ main section:nth-of-type(7) div > div span {
     padding: 3px;
     font-size: 1em;
 }
-main section:nth-of-type(7) div > p {
+.lyrics main section:nth-of-type(7) div > p {
     margin: 0;
 }
 
-main section:nth-of-type(8) {
+.lyrics main section:nth-of-type(8) {
     padding: 15px;
     border-top: 20px lightgrey solid;
 }
 
-main section:nth-of-type(8) table {
+.lyrics main section:nth-of-type(8) table {
     border-collapse: collapse;
     width: 100%;
 }
 
-main section:nth-of-type(8) tr {
+.lyrics main section:nth-of-type(8) tr {
     border-top: 1px solid lightgrey;
 }
 
-main section:nth-of-type(8) th {
+.lyrics main section:nth-of-type(8) th {
     color: grey;
     font-size: .8em;
     font-weight: normal;
@@ -364,7 +364,7 @@ main section:nth-of-type(8) th {
     padding-bottom: 5px;
 }
 
-main section:nth-of-type(8) td {
+.lyrics main section:nth-of-type(8) td {
     color: grey;
     font-size: .8em;
     font-weight: normal;
@@ -373,43 +373,43 @@ main section:nth-of-type(8) td {
     padding-bottom: 5px;
 }
 
-main section:nth-of-type(8) a {
+.lyrics main section:nth-of-type(8) a {
     text-decoration: none;
     color: rgb(95, 95, 243);
 }
 
-main section:nth-of-type(9) {
+.lyrics main section:nth-of-type(9) {
     padding: 15px;
     border-top: 20px lightgrey solid;
 }
 
-main section:nth-of-type(9) img {
+.lyrics main section:nth-of-type(9) img {
     width: 20%;
 }
 
-main section:nth-of-type(9) > div {
+.lyrics main section:nth-of-type(9) > div {
     display: flex;
     justify-content: left;
     flex-wrap: wrap;
     align-items: center;
 }
 
-main section:nth-of-type(9) span {
+.lyrics main section:nth-of-type(9) span {
     display: block;
     letter-spacing: 0.05em;
     margin-left: 20px;
 }
 
-main section:nth-of-type(9) span:nth-of-type(1) {
+.lyrics main section:nth-of-type(9) span:nth-of-type(1) {
     font-size: 1.3em;
 }
 
-main section:nth-of-type(9) span:nth-of-type(2) {
+.lyrics main section:nth-of-type(9) span:nth-of-type(2) {
     font-size: 0.8em;
     text-transform: uppercase;
 }
 
-main section:nth-of-type(9) ol {
+.lyrics main section:nth-of-type(9) ol {
     padding: 0;
     list-style-position: inside;
     letter-spacing: 0.05em;
@@ -417,41 +417,41 @@ main section:nth-of-type(9) ol {
     line-height: 1.8em;
 }
 
-main section:nth-of-type(9) ol .current {
+.lyrics main section:nth-of-type(9) ol .current {
     color: grey;
 }
 
 /* Comments */
 
-main section:nth-of-type(10) {
+.lyrics main section:nth-of-type(10) {
     padding: 15px;
     border-top: 20px lightgrey solid;
 }
 
-main section:nth-of-type(10) input {
+.lyrics main section:nth-of-type(10) input {
     margin-bottom: 25px;
 }
 
-main section:nth-of-type(10) > section {
+.lyrics main section:nth-of-type(10) > section {
     background-color: rgb(240, 240, 240);
     padding: 10px;
 }
 
-main section:nth-of-type(10) > section > section {
+.lyrics main section:nth-of-type(10) > section > section {
     border-top: none;
 }
 
-main section:nth-of-type(10) > section > section:not(:first-child) {
+.lyrics main section:nth-of-type(10) > section > section:not(:first-child) {
     border-top: 1px solid rgb(95, 95, 243);
     padding-top: 25px;
     padding-bottom: 25px;
 }
 
-main section:nth-of-type(10) h3 {
+.lyrics main section:nth-of-type(10) h3 {
     text-transform: uppercase;
 }
 
-main section:nth-of-type(10) a {
+.lyrics main section:nth-of-type(10) a {
     text-decoration: none;
     color: rgb(95, 95, 243);
     border-bottom: 1px solid rgb(95, 95, 243);
@@ -459,63 +459,63 @@ main section:nth-of-type(10) a {
     font-size: .9em;
 }
 
-main section:nth-of-type(10) > section > section div:nth-of-type(1) {
+.lyrics main section:nth-of-type(10) > section > section div:nth-of-type(1) {
     display: flex;
     align-items: center;
     font-size: .9em;
 }
 
-main section:nth-of-type(10) > section > section div:nth-of-type(1) img {
+.lyrics main section:nth-of-type(10) > section > section div:nth-of-type(1) img {
     height: 15px;
     margin-right: 5px;
 }
 
 /* icoontjes in de comment */
-main section:nth-of-type(10) > section > section div:nth-of-type(1) .material-icons {
+.lyrics main section:nth-of-type(10) > section > section div:nth-of-type(1) .material-icons {
     vertical-align: middle;
     font-size: 1.1em;
 }
 
-main section:nth-of-type(10) > section > section div:nth-of-type(1) span:nth-of-type(3){
+.lyrics main section:nth-of-type(10) > section > section div:nth-of-type(1) span:nth-of-type(3){
     margin-left: auto;
 }
 
-main section:nth-of-type(10) > section > section div:nth-of-type(1) span:not(:first-of-type) {
+.lyrics main section:nth-of-type(10) > section > section div:nth-of-type(1) span:not(:first-of-type) {
     font-size: .8em;
     color: grey;
 }
 
 /* duimpies */
-main section:nth-of-type(10) > section > section div:nth-of-type(2) {
+.lyrics main section:nth-of-type(10) > section > section div:nth-of-type(2) {
     display: flex;
     align-items: center;
 }
 
-main section:nth-of-type(10) > section > section div:nth-of-type(2) .material-icons {
+.lyrics main section:nth-of-type(10) > section > section div:nth-of-type(2) .material-icons {
     font-size: 1.1em;
     color: rgb(156, 156, 156);
 }
 
-main section:nth-of-type(10) > section > section div:nth-of-type(2) span:not(.material-icons) {
+.lyrics main section:nth-of-type(10) > section > section div:nth-of-type(2) span:not(.material-icons) {
     color: rgb(72, 209, 72);
     margin-left: 5px;
     margin-right: 5px;
 }
 
 /* nav */
-main section:nth-of-type(11) {
+.lyrics main section:nth-of-type(11) {
     text-align: center;
     color: grey;
     font-size: .8em;
 }
 
-main section:nth-of-type(11) span {
+.lyrics main section:nth-of-type(11) span {
     vertical-align: middle;
     color: lightgrey;
     font-size: 1.2em;
 }
 
-main section:nth-of-type(11) {
+.lyrics main section:nth-of-type(11) {
     text-align: center;
     color: grey;
     font-size: .8em;
