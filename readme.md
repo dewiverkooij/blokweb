@@ -40,7 +40,27 @@ Grid 2: https://codepen.io/dewi-verkooij/pen/YzGPpEY?editors=1100
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
+
+-dit ging goed & dit was lastig-
+
+
+**Screenshot(s):**
+
+-screenshot(s) van hoe ver je bent met korte uitleg-
+
+
+### Agenda voor meeting
+
+-samen met je groepje opstellen-
+
+| Noa Bos            | Daan              | Inez             | Niels          | Dewi            |
+| ---                | ---               | ---              | ---            | ---             |
+| Hoe banner anders  | Hoeveel comments  | Hoe zorg je dat  | Hoe laat je een| Hoeveel anima-  |
+| met hover tekst op | moet je ongeveer  | site op meerdere | element bewegen| ties moet ik    |
+| mobiel en desktop  | in je code hebben | telefoons werkt  | als je scrollt?| ongeveer maken  |
+
+### Verslag van meeting
 
 
 

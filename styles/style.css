@@ -48,11 +48,11 @@ main {
     margin-top: 51px;
 }
 
-main section:first-of-type {
+main > section:first-of-type {
     position: relative;
 }
 
-main section:first-of-type > div:first-of-type {
+main > section:first-of-type > div:first-of-type {
     position: absolute;
     
     top: 0;
@@ -67,7 +67,7 @@ main section:first-of-type > div:first-of-type {
     z-index: -1;
 }
 
-main section:first-of-type > div:first-of-type::after {
+main > section:first-of-type > div:first-of-type::after {
     content: '';
     position: absolute;
     top: 0px;
@@ -78,7 +78,7 @@ main section:first-of-type > div:first-of-type::after {
     background-image: linear-gradient(to bottom,rgba(0,0,0,0.6) 30%,#000 80%);
 }
 
-main section:first-of-type div:nth-child(2) {
+main > section:first-of-type div:nth-child(2) {
     color: white;
     z-index: 1;
 }
@@ -148,7 +148,7 @@ main section:first-of-type strong {
     font-weight: bold;
 }
 
-main section:first-of-type img {
+main > section:first-of-type img {
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -215,8 +215,11 @@ main section:nth-of-type(2) p span.verified {
     box-shadow: 0.01em 0 0 #99f2a5, -0.01em 0 0 #99f2a5;
 }
 
+/* Rest */
+
 main section:nth-of-type(3) {
     padding: 15px;
+    border-top: 20px lightgrey solid;
 }
 
 h3 {
@@ -230,6 +233,7 @@ h3 {
 
 main section:nth-of-type(4) {
     padding: 15px;
+    border-top: 20px lightgrey solid;
 }
 
 main section:nth-of-type(4) div {
@@ -253,4 +257,298 @@ main section:nth-of-type(4) strong {
     text-transform: capitalize;
     display: block;
     margin-top: 5px;
+}
+
+main section:nth-of-type(5) {
+    padding: 15px;
+    border-top: 20px lightgrey solid;
+}
+
+main section:nth-of-type(5) h3 {
+    text-transform: none;
+}
+
+input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 5px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+main section:nth-of-type(6) {
+    padding: 15px;
+    border-top: 20px lightgrey solid;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /*hij mag op meerdere lijnen */
+    align-items: center;
+}
+
+main section:nth-of-type(6) h3 {
+    color: rgb(255, 65, 128);
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+main section:nth-of-type(6) p {
+    line-height: 1.6em;
+    font-size: 0.9em;
+    letter-spacing: 0.05em;
+    
+}
+
+main section:nth-of-type(6) span {
+    color: rgb(255, 65, 128);
+    font-size: 2em;
+    vertical-align: middle;
+}
+
+main section:nth-of-type(7) {
+    padding: 15px;
+    border-top: 20px lightgrey solid;
+}
+
+main section:nth-of-type(7) > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+main section:nth-of-type(7) div > div {
+    position: relative;
+    margin-right: 10px;
+}
+
+main section:nth-of-type(7) div > div img {
+    width: 100%;
+    filter: brightness(50%);
+}
+
+main section:nth-of-type(7) div > div span {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: white;
+    padding: 3px;
+    font-size: 1em;
+}
+main section:nth-of-type(7) div > p {
+    margin: 0;
+}
+
+main section:nth-of-type(8) {
+    padding: 15px;
+    border-top: 20px lightgrey solid;
+}
+
+main section:nth-of-type(8) table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+main section:nth-of-type(8) tr {
+    border-top: 1px solid lightgrey;
+}
+
+main section:nth-of-type(8) th {
+    color: grey;
+    font-size: .8em;
+    font-weight: normal;
+    width: 30%;
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+main section:nth-of-type(8) td {
+    color: grey;
+    font-size: .8em;
+    font-weight: normal;
+    width: 70%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+main section:nth-of-type(8) a {
+    text-decoration: none;
+    color: rgb(95, 95, 243);
+}
+
+main section:nth-of-type(9) {
+    padding: 15px;
+    border-top: 20px lightgrey solid;
+}
+
+main section:nth-of-type(9) img {
+    width: 20%;
+}
+
+main section:nth-of-type(9) > div {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+main section:nth-of-type(9) span {
+    display: block;
+    letter-spacing: 0.05em;
+    margin-left: 20px;
+}
+
+main section:nth-of-type(9) span:nth-of-type(1) {
+    font-size: 1.3em;
+}
+
+main section:nth-of-type(9) span:nth-of-type(2) {
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+main section:nth-of-type(9) ol {
+    padding: 0;
+    list-style-position: inside;
+    letter-spacing: 0.05em;
+    font-size: .9em;
+    line-height: 1.8em;
+}
+
+main section:nth-of-type(9) ol .current {
+    color: grey;
+}
+
+/* Comments */
+
+main section:nth-of-type(10) {
+    padding: 15px;
+    border-top: 20px lightgrey solid;
+}
+
+main section:nth-of-type(10) input {
+    margin-bottom: 25px;
+}
+
+main section:nth-of-type(10) > section {
+    background-color: rgb(240, 240, 240);
+    padding: 10px;
+}
+
+main section:nth-of-type(10) > section > section {
+    border-top: none;
+}
+
+main section:nth-of-type(10) > section > section:not(:first-child) {
+    border-top: 1px solid rgb(95, 95, 243);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+main section:nth-of-type(10) h3 {
+    text-transform: uppercase;
+}
+
+main section:nth-of-type(10) a {
+    text-decoration: none;
+    color: rgb(95, 95, 243);
+    border-bottom: 1px solid rgb(95, 95, 243);
+    text-transform: uppercase;
+    font-size: .9em;
+}
+
+main section:nth-of-type(10) > section > section div:nth-of-type(1) {
+    display: flex;
+    align-items: center;
+    font-size: .9em;
+}
+
+main section:nth-of-type(10) > section > section div:nth-of-type(1) img {
+    height: 15px;
+    margin-right: 5px;
+}
+
+/* icoontjes in de comment */
+main section:nth-of-type(10) > section > section div:nth-of-type(1) .material-icons {
+    vertical-align: middle;
+    font-size: 1.1em;
+}
+
+main section:nth-of-type(10) > section > section div:nth-of-type(1) span:nth-of-type(3){
+    margin-left: auto;
+}
+
+main section:nth-of-type(10) > section > section div:nth-of-type(1) span:not(:first-of-type) {
+    font-size: .8em;
+    color: grey;
+}
+
+/* duimpies */
+main section:nth-of-type(10) > section > section div:nth-of-type(2) {
+    display: flex;
+    align-items: center;
+}
+
+main section:nth-of-type(10) > section > section div:nth-of-type(2) .material-icons {
+    font-size: 1.1em;
+    color: rgb(156, 156, 156);
+}
+
+main section:nth-of-type(10) > section > section div:nth-of-type(2) span:not(.material-icons) {
+    color: rgb(72, 209, 72);
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* nav */
+main section:nth-of-type(11) {
+    text-align: center;
+    color: grey;
+    font-size: .8em;
+}
+
+main section:nth-of-type(11) span {
+    vertical-align: middle;
+    color: lightgrey;
+    font-size: 1.2em;
+}
+
+main section:nth-of-type(11) {
+    text-align: center;
+    color: grey;
+    font-size: .8em;
+}
+
+footer {
+    background-color: black;
+    padding: 40px;
+    text-align: center;
+}
+
+footer section:nth-of-type(1) a {
+    text-decoration: none;
+    color: rgb(255, 244, 83);
+    line-height: 2em;
+    font-size: .9em;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+footer p {
+    color: rgb(248, 248, 248);
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: .9em;
+}
+
+footer section:nth-of-type(2) a {
+    text-decoration: none;
+    color: rgb(95, 95, 243);
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: .9em;
+}
+
+footer section:nth-of-type(2) a:nth-of-type(1) {
+    text-transform: uppercase;
 }
