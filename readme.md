@@ -8,7 +8,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Bronnenlijst
 1. https://www.w3schools.com/html/html_tables.asp
 2. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-3. -...-
+3. https://stackoverflow.com/questions/8824831/make-div-stay-at-bottom-of-pages-content-all-the-time-even-when-there-are-scrol
+4. 
 
 ## Huiswerkopdrachten
 Typografie: https://codepen.io/dewi-verkooij/pen/XWKyQVw  
@@ -67,6 +68,7 @@ van Genius. Vooral de tabel die ik gemaakt heb was lastig en de footer. Wat betr
 
 ### Verslag van meeting
 
+Het antwoord op mijn vraag is dat je niet zo zeer een aantal kan geven. Je kan als richtlijn nemen dat je 5 kleine animaties maakt of 3 grote. Ik zorg dat ik maandag laat zien welke animaties ik denk te gaan maken en dan kan Janno beoordelen of het genoeg is of dat ik meer of minder animaties moet maken. 
 
 
 ## Voortgang 1 (week 3)
