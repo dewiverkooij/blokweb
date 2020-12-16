@@ -44,7 +44,7 @@ Ik begin eindelijk weer een beetje met plezier aan dit vak. Het eind is in zicht
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
 
-<img src="images/voortgang3.PNG" width="375px" alt="Voortgang 3">
+<img src="images/voortgang3.png" width="375px" alt="Voortgang 3">
 De hele website is nu dus af, wat HTML en CSS betreft. Ik ga vanaf volgende week beginnen met de Javascript en nog wat puntjes op de i zetten. 
 
 
