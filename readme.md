@@ -35,7 +35,30 @@ Grid 2: https://codepen.io/dewi-verkooij/pen/YzGPpEY?editors=1100
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
+
+Ik begin eindelijk weer een beetje met plezier aan dit vak. Het eind is in zicht en dat vind ik fijn. Ik ben heel blij met hoe ik de website uiteindelijk gemaakt heb. Ik moet nog een aantal dingen aanpassen, bijvoorbeeld verschillende foto's en teksten waar ik nu steeds dezelfde gebruik. Ook moet ik nog een aantal hover dingen maken. Ten slotte moet ik de surface plane gaan uitwerken. De elementen die ik ga uitwerken zijn: hamburgermenu, zoek functie, duimpjes, roze titels in en uit klappen en 'Read Jorja Smith's verified annotations'. Dit is goedgekeurd door Janno. 
+
+
+**Screenshot(s):**
+
+-screenshot(s) van hoe ver je bent met korte uitleg-
+
+<img src="images/voortgang3.PNG" width="375px" alt="Voortgang 3">
+De hele website is nu dus af, wat HTML en CSS betreft. Ik ga vanaf volgende week beginnen met de Javascript en nog wat puntjes op de i zetten. 
+
+
+### Agenda voor meeting
+
+-samen met je groepje opstellen-
+
+| Noa Bos            | Daan              | Inez             | Niels          | Dewi                   |
+| ---                | ---               | ---              | ---            | ---                    |
+| Hoe zet ik iets in |                   | Hoe maak je een  |                | Ik wil weten wat er    |
+| mijn dropdown van  |                   | goed hamburger   |                | fout gaat met de marges|
+| mijn searchbalk?   |                   | menu?            |                | in mijn carrousel      |
+
+### Verslag van meeting
 
 
 
