@@ -151,10 +151,7 @@ https://genius.com
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/home1.PNG" width="375px" alt="De homepagina">
-<img src="images/home2.PNG" width="375px" alt="De homepagina">
-<img src="images/home3.PNG" width="375px" alt="De homepagina">
-<img src="images/home4.PNG" width="375px" alt="De homepagina">
+<img src="images/jorjaprofielpagina.png" width="375px" alt="De profielpagina">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
