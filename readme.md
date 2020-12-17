@@ -54,9 +54,9 @@ De hele website is nu dus af, wat HTML en CSS betreft. Ik ga vanaf volgende week
 
 | Noa Bos            | Daan              | Inez             | Niels          | Dewi                   |
 | ---                | ---               | ---              | ---            | ---                    |
-| Hoe zet ik iets in |                   | Hoe maak je een  |                | Ik wil weten wat er    |
-| mijn dropdown van  |                   | goed hamburger   |                | fout gaat met de marges|
-| mijn searchbalk?   |                   | menu?            |                | in mijn carrousel      |
+| Hoe zet ik iets in | Feedback readme en| Hoe maak je een  |                | Ik wil weten wat er    |
+| mijn dropdown van  | voorbeeldverslag  | goed hamburger   |                | fout gaat met de marges|
+| mijn searchbalk?   | screenreader      | menu?            |                | in mijn carrousel      |
 
 ### Verslag van meeting
 
