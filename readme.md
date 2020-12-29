@@ -9,7 +9,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 1. https://www.w3schools.com/html/html_tables.asp
 2. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 3. https://stackoverflow.com/questions/8824831/make-div-stay-at-bottom-of-pages-content-all-the-time-even-when-there-are-scrol
-4. 
+4. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/nav
+5. https://stackoverflow.com/questions/2610497/change-an-html5-inputs-placeholder-color-with-css
+
 
 ## Huiswerkopdrachten
 Typografie: https://codepen.io/dewi-verkooij/pen/XWKyQVw  

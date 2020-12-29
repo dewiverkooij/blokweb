@@ -16,11 +16,11 @@
 
     <header>
         <div>
-            <span class="material-icons">
+            <span class="material-icons" id="menuknop">
                 menu
             </span>
     
-            <span class="material-icons">
+            <span class="material-icons" id="zoekknop">
                 search
             </span>
         </div>
@@ -29,6 +29,66 @@
 
         <a>Sign up</a>
     </header>
+
+    <span id="zoekbalk">
+        <input type="text" placeholder="Search lyrics & more">
+        <span class="material-icons" id="kruisklik">
+            close
+        </span>
+    </span>
+
+    <nav id="menu">
+        <ul>
+            <li>
+                <a href="index.html">home</a>
+            </li>
+            <li>
+                <a href="index.html">lyric reels</a>
+            </li>
+            <li>
+                <a href="index.html">home studio</a>
+            </li>
+            <li>
+                <a href="index.html">featured</a>
+            </li>
+            <li>
+                <a href="index.html">charts</a>
+            </li>
+            <li>
+                <a href="index.html">videos</a>
+            </li>
+            <li>
+                <a href="index.html">community</a>
+            </li>
+            <li>
+                <a href="index.html">shop</a>
+            </li>
+            <li>
+                <a href="index.html">
+                    <img src="images/facebook.svg">
+                    facebook
+                </a>
+            </li>
+            <li>
+                <a href="index.html">
+                    <img src="images/twitter.svg">
+                    twitter
+                </a>
+            </li>
+            <li>
+                <a href="index.html">
+                    <img src="images/instagram.svg">
+                    instagram
+                </a>
+            </li>
+            <li>
+                <a href="index.html">
+                    <img src="images/youtube.svg">
+                    youtube
+                </a>
+            </li>
+        </ul>
+    </nav>
 
     <main>
         <section>
@@ -214,13 +274,15 @@
         </section>
 
 
-        <section>
-            <h3>
-                What inspired this song?
-            </h3>
-            <span class="material-icons">
-                keyboard_arrow_down
-            </span>
+        <section id="uitklapgeheel">
+            <div id="uitklapknop">
+                <h3>
+                    What inspired this song?
+                </h3>
+                <span class="material-icons">
+                    keyboard_arrow_down
+                </span>
+            </div>
             <p><strong>Jorja Smith: </strong>When I wrote “Blue Lights,” I took a break from doing my media course work. I was looking at post-colonialism in grime music. A video I was watching was Dizzee Rascal’s “Sirens.” I was inspired to write this song. I was listening to some beat in my room, and I found this one, called “Jamie Keys” produced by Joyce. That’s who produced “Blue Lights.” I just started free styling it. Also I wrote this song because I was talking to loads of young kids. Part of my coursework was to do a little documentary, and I was looking at police versus grime music. I just went around interviewing kids at school asking them what they thought of the police. These little boys, mostly it was black kids that I was interviewing, people of color. Well everyone, but that was the main focus.
             </br></br>
             These 11-year-olds, I was like, “Oh, what do you think of the police?” They were like, “Fuck the police! I hate them.” And I was like, “What have you done?” “Nothing, but I hate them,” And I was like, “It’s sad,” you know?It’s sad because we’re kind of … It’s instilled in us to have, well fear the police. You know? That’s what I was writing the song about. And it was about walking around with this guilty conscience, even though you haven’t done anything wrong.</p>
@@ -336,7 +398,6 @@
                 </section>
 
                 <section>
-
                     <div>
                         <img src="images/profielfoto.jpg" alt="Profiel foto van reactie">
                         <span>vndre4</span>
@@ -355,19 +416,17 @@
                         BRUUUUUHHHHHHHHHH</p>
 
                     <div>
-                        <span class="material-icons">
+                        <span class="material-icons" id="duimHoog">
                             thumb_up
                         </span>
-                        <span>+114</span>
-                        <span class="material-icons">
+                        <span id="aantalDuimpjes">+114</span>
+                        <span class="material-icons" id="duimLaag">
                             thumb_down
                         </span>
                     </div>
-
                 </section>
 
                 <section>
-
                     <div>
                         <img src="images/profielfoto.jpg" alt="Profiel foto van reactie">
                         <span>freshgdf</span>
@@ -391,10 +450,61 @@
                             thumb_down
                         </span>
                     </div>
-
                 </section>
 
-                <a href="index.html">Show more (12)</a>
+                <section class="verborgen-comment">
+                    <div>
+                        <img src="images/profielfoto.jpg" alt="Profiel foto van reactie">
+                        <span>rubenjensen</span>
+                        <span>
+                            <span class="material-icons">
+                                change_history
+                            </span>
+                            1,081
+                        </span>
+                        <span>3 years ago</span>
+                    </div>
+
+                    <p>British SZA</p>
+
+                    <div>
+                        <span class="material-icons">
+                            thumb_up
+                        </span>
+                        <span>+30</span>
+                        <span class="material-icons">
+                            thumb_down
+                        </span>
+                    </div>
+                </section>
+
+                <section class="verborgen-comment">
+                    <div>
+                        <img src="images/profielfoto.jpg" alt="Profiel foto van reactie">
+                        <span>poolboi12</span>
+                        <span>
+                            <span class="material-icons">
+                                change_history
+                            </span>
+                            221
+                        </span>
+                        <span>3 years ago</span>
+                    </div>
+
+                    <p>a better SZA. extremely talented</p>
+
+                    <div>
+                        <span class="material-icons">
+                            thumb_up
+                        </span>
+                        <span>+29</span>
+                        <span class="material-icons">
+                            thumb_down
+                        </span>
+                    </div>
+                </section>
+
+                <a href="#" id="uitgeklapte-reactiesknop">Show more (2)</a>
 
             </section>
 
@@ -441,5 +551,7 @@
             <a href="index.html">All artists</a>
         </section>
     </footer>
+
+    <script type="text/javascript" src="scripts/script.js"></script>
 </body>
 </html>

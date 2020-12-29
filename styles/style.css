@@ -1,5 +1,3 @@
-/* FFFF64 */
-
 * {
     font-family: 'Noto Sans', sans-serif;
 }
@@ -10,10 +8,6 @@ body {
 
 header {
     background-color: #FFFF64;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
     height: 41px;
 
     display: flex;
@@ -21,6 +15,11 @@ header {
     align-items: center;
     padding: 5px 12px;
     z-index: 1000;
+}
+
+/* wanneer zoekbalk in beeld komt verdwijnt de header */
+body.open-zoekbalk header {
+    display: none;
 }
 
 header div {
@@ -44,10 +43,6 @@ header a {
     flex: 1;
     text-align: right;
     text-transform: uppercase;
-}
-
-main {
-    margin-top: 51px;
 }
 
 .lyrics main > section:first-of-type {
@@ -196,30 +191,30 @@ main {
 
 /* Lyrics deel */
 
-.lyrics main section:nth-of-type(2) {
+.lyrics main > section:nth-of-type(2) {
     padding: 0px 15px;
 
 }
 
-.lyrics main section:nth-of-type(2) p {
+.lyrics main > section:nth-of-type(2) p {
     white-space: pre-line;
     line-height: 1.8;
     font-size: .9em;
 }
 
-.lyrics main section:nth-of-type(2) p span {
+.lyrics main > section:nth-of-type(2) p span {
     background-color: #e9e9e9;
     box-shadow: 0.01em 0 0 #e9e9e9, -0.01em 0 0 #e9e9e9;
 }
 
-.lyrics main section:nth-of-type(2) p span.verified {
+.lyrics main > section:nth-of-type(2) p span.verified {
     background-color: #99f2a5;
     box-shadow: 0.01em 0 0 #99f2a5, -0.01em 0 0 #99f2a5;
 }
 
 /* Rest */
 
-.lyrics main section:nth-of-type(3) {
+.lyrics main > section:nth-of-type(3) {
     padding: 15px;
     border-top: 20px lightgrey solid;
 }
@@ -233,20 +228,20 @@ main {
     letter-spacing: 0.05em;
 }
 
-.lyrics main section:nth-of-type(4) {
+.lyrics main > section:nth-of-type(4) {
     padding: 15px;
     border-top: 20px lightgrey solid;
 }
 
-.lyrics main section:nth-of-type(4) div {
+.lyrics main > section:nth-of-type(4) div {
     position: relative;
 }
 
-.lyrics main section:nth-of-type(4) div img {
+.lyrics main > section:nth-of-type(4) div img {
     width: 100%;
 }
 
-.lyrics main section:nth-of-type(4) div span {
+.lyrics main > section:nth-of-type(4) div span {
     position: absolute;
     bottom: 15px;
     right: 15px;
@@ -255,18 +250,18 @@ main {
     font-size: 2em;
 }
 
-.lyrics main section:nth-of-type(4) strong {
+.lyrics main > section:nth-of-type(4) strong {
     text-transform: capitalize;
     display: block;
     margin-top: 5px;
 }
 
-.lyrics main section:nth-of-type(5) {
+.lyrics main > section:nth-of-type(5) {
     padding: 15px;
     border-top: 20px lightgrey solid;
 }
 
-.lyrics main section:nth-of-type(5) h3 {
+.lyrics main > section:nth-of-type(5) h3 {
     text-transform: none;
 }
 
@@ -281,9 +276,12 @@ main {
 .lyrics main section:nth-of-type(6) {
     padding: 15px;
     border-top: 20px lightgrey solid;
+    display: block;
+}
+
+.lyrics main section:nth-of-type(6) div {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; /*hij mag op meerdere lijnen */
     align-items: center;
 }
 
@@ -298,13 +296,25 @@ main {
     line-height: 1.6em;
     font-size: 0.9em;
     letter-spacing: 0.05em;
-    
+    /* p zie je alleen als hij uitgeklapt is */
+    display: none;
+}
+
+/* tekst laten uitklappen */
+.lyrics main section:nth-of-type(6).uitgeklapt p {
+    display: block;
 }
 
 .lyrics main section:nth-of-type(6) span {
     color: rgb(255, 65, 128);
     font-size: 2em;
     vertical-align: middle;
+    transition: 200ms ease;
+}
+
+/* pijltje laten omkeren */
+.lyrics main section:nth-of-type(6).uitgeklapt span {
+    transform: rotate(180deg);
 }
 
 .lyrics main section:nth-of-type(7) {
@@ -459,6 +469,17 @@ main {
     font-size: .9em;
 }
 
+/* show more weghalen  */
+.lyrics.open-reacties main section:nth-of-type(10) a {
+    display: none;
+}
+
+.lyrics main section:nth-of-type(10) p {
+    white-space: pre-line;
+    line-height: 1.8;
+    font-size: .9em;
+}
+
 .lyrics main section:nth-of-type(10) > section > section div:nth-of-type(1) {
     display: flex;
     align-items: center;
@@ -485,6 +506,16 @@ main {
     color: grey;
 }
 
+/* 2 onderste comments staan niet in beeld */
+.verborgen-comment {
+    display: none;
+}
+
+/* 2 extra reacties laten zien */
+.open-reacties .verborgen-comment {
+    display: block;
+}
+
 /* duimpies */
 .lyrics main section:nth-of-type(10) > section > section div:nth-of-type(2) {
     display: flex;
@@ -496,13 +527,21 @@ main {
     color: rgb(156, 156, 156);
 }
 
+/* Maak de diumpjes gekleurd wanneer ze zijn aangeklikt */
+.lyrics main section:nth-of-type(10) > section > section div:nth-of-type(2) .material-icons:nth-of-type(1).geklikt {
+    color: green;
+}
+.lyrics main section:nth-of-type(10) > section > section div:nth-of-type(2) .material-icons:nth-of-type(3).geklikt {
+    color: red;
+}
+
 .lyrics main section:nth-of-type(10) > section > section div:nth-of-type(2) span:not(.material-icons) {
     color: rgb(72, 209, 72);
     margin-left: 5px;
     margin-right: 5px;
 }
 
-/* nav */
+/* breadcrumbs */
 .lyrics main section:nth-of-type(11) {
     text-align: center;
     color: grey;
@@ -807,4 +846,85 @@ footer section:nth-of-type(2) a:nth-of-type(1) {
     vertical-align: middle;
     color: grey;
     font-size: 2.5em;
+}
+
+
+
+
+
+
+
+
+
+
+/* animaties */
+
+nav {
+    width: 100%;
+    background-color: black;
+    /* als menu nog niet zichtbaar is */
+    display: none;
+}
+
+/* als menu open gaat */
+nav.open {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    padding-left: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #414141;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+nav img {
+    display: inline-block;
+    height: 1em;
+    margin-right: 10px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+
+
+#zoekbalk {
+    height: 41px;
+    background-color: #FFFF64;
+    padding: 5px 12px;
+    display: none;
+
+    align-items: center;
+    justify-content: stretch;
+}
+
+body.open-zoekbalk #zoekbalk {
+    display: flex;
+}
+
+#zoekbalk input {
+    flex-grow: 1;
+    border: none;
+    background: none;
+    outline: none;
+    font-weight: bold;
+    color: black;
+    font-size: 1em;
+}
+
+#zoekbalk input::placeholder {
+    color: #e0e0e0;
 }
