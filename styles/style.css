@@ -643,11 +643,11 @@ header a {
 
 
 
-
 footer {
     background-color: black;
     padding: 40px;
     text-align: center;
+    padding-bottom: 150px;
 }
 
 footer section:nth-of-type(1) a {
