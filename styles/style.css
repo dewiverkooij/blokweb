@@ -273,26 +273,26 @@ header a {
     border-style: solid;
 }
 
-.lyrics main section:nth-of-type(6) {
+.lyrics main section:nth-of-type(6) section{
     padding: 15px;
     border-top: 20px lightgrey solid;
     display: block;
 }
 
-.lyrics main section:nth-of-type(6) div {
+.lyrics main section:nth-of-type(6) section div {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.lyrics main section:nth-of-type(6) h3 {
+.lyrics main section:nth-of-type(6) section h3 {
     color: rgb(255, 65, 128);
     font-size: 0.8em;
     font-weight: bold;
     margin-bottom: 0;
 }
 
-.lyrics main section:nth-of-type(6) p {
+.lyrics main section:nth-of-type(6) section p {
     line-height: 1.6em;
     font-size: 0.9em;
     letter-spacing: 0.05em;
@@ -301,19 +301,20 @@ header a {
 }
 
 /* tekst laten uitklappen */
-.lyrics main section:nth-of-type(6).uitgeklapt p {
+.lyrics main section:nth-of-type(6) section.uitgeklapt p {
     display: block;
 }
 
-.lyrics main section:nth-of-type(6) span {
+.lyrics main section:nth-of-type(6) section span {
     color: rgb(255, 65, 128);
     font-size: 2em;
     vertical-align: middle;
     transition: 200ms ease;
+    margin-left: 20px;
 }
 
 /* pijltje laten omkeren */
-.lyrics main section:nth-of-type(6).uitgeklapt span {
+.lyrics main section:nth-of-type(6) section.uitgeklapt span {
     transform: rotate(180deg);
 }
 
@@ -331,11 +332,18 @@ header a {
 .lyrics main section:nth-of-type(7) div > div {
     position: relative;
     margin-right: 10px;
+    width: 120px;
+    flex-shrink: 0;
 }
 
 .lyrics main section:nth-of-type(7) div > div img {
     width: 100%;
     filter: brightness(50%);
+}
+
+/* onderste foto heeft geen filter */
+.lyrics main section:nth-of-type(7) div.geenvideo > div img {
+    filter: brightness(100%);
 }
 
 .lyrics main section:nth-of-type(7) div > div span {
@@ -346,6 +354,12 @@ header a {
     padding: 3px;
     font-size: 1em;
 }
+
+/* onderste foto heeft geen play button */
+.lyrics main section:nth-of-type(7) div.geenvideo > div span {
+    display: none;
+}
+
 .lyrics main section:nth-of-type(7) div > p {
     margin: 0;
 }
@@ -554,11 +568,81 @@ header a {
     font-size: 1.2em;
 }
 
-.lyrics main section:nth-of-type(11) {
-    text-align: center;
-    color: grey;
+/* Play music deel */
+.lyrics main section:nth-of-type(12) {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: white;
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.lyrics main section:nth-of-type(12) div:nth-of-type(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lyrics main section:nth-of-type(12) img {
+    height: 12px;
+}
+
+.lyrics main section:nth-of-type(12) > div:nth-of-type(1) span {
+    margin-left: 8px;
+    border-left: 3px solid #e0e0e0;
+    padding-left: 8px;
     font-size: .8em;
 }
+
+.lyrics main section:nth-of-type(12) div:nth-of-type(2) {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.lyrics main section:nth-of-type(12) div:nth-of-type(2) div {
+    height: 2px;
+    background-color: black;
+    position: relative;
+    flex-grow: 1;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.lyrics main section:nth-of-type(12) div:nth-of-type(2) div span {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    left: -2px;
+    display: block;
+}
+
+/* play button */
+.lyrics main section:nth-of-type(12) div:nth-of-type(2) .material-icons:first-child {
+    font-size: 2em;
+}
+
+/* -4:11 */
+.lyrics main section:nth-of-type(12) div:nth-of-type(2) span:nth-of-type(2) {
+    font-size: .8em;
+}
+
+/* kruisje */
+.lyrics main section:nth-of-type(12) div:nth-of-type(2) .material-icons:last-child {
+    font-size: 1.3em;
+    margin-left: 10px;
+}
+
+
+
+
+
 
 footer {
     background-color: black;
@@ -733,7 +817,8 @@ footer section:nth-of-type(2) a:nth-of-type(1) {
 }
 
 .profiel main > section:nth-of-type(5) div {
-    margin: 7.5px; 
+    margin: 5px; 
+    padding-right: 7.5px;
 }
 
 .profiel main > section:nth-of-type(5) p {
@@ -777,12 +862,18 @@ footer section:nth-of-type(2) a:nth-of-type(1) {
     display: block;
     font-weight: normal;
     margin-top: 5px;
-    margin-bottom: -6px;
 }
 
 .profiel main > section:nth-of-type(6) span {
     font-size: .7em;
+    display: block;
 }
+
+/* oogje en aantal views */
+.profiel main > section:nth-of-type(6)  div > span:last-child {
+    margin-top: 15px;
+}
+
 
 .profiel main > section:nth-of-type(6) a {
     background-color: white;
@@ -796,7 +887,13 @@ footer section:nth-of-type(2) a:nth-of-type(1) {
 
 .profiel main > section:nth-of-type(6) .material-icons {
     vertical-align: middle;
+    display: inline-block;
     color: grey;
+    font-size: 1em;
+}
+
+/* Show all songs by Jorja Smith pijltje */
+.profiel main > section:nth-of-type(6) a .material-icons {
     font-size: 2.5em;
 }
 
@@ -846,6 +943,20 @@ footer section:nth-of-type(2) a:nth-of-type(1) {
     vertical-align: middle;
     color: grey;
     font-size: 2.5em;
+}
+
+/* breadcrumbs */
+.profiel main section:nth-of-type(9) {
+    text-align: center;
+    color: grey;
+    font-size: .8em;
+    border-top: 5px solid #e0e0e0;
+}
+
+.profiel main section:nth-of-type(9) span {
+    vertical-align: middle;
+    color: lightgrey;
+    font-size: 1.2em;
 }
 
 
