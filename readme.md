@@ -46,11 +46,11 @@ Uiteindelijk voel ik me nu steeds meer vertrouwd met html en css. Javascript bli
 
 -screenshot(s) van je eindresultaat-
 
-<img src="images/image 10.png" width="375px" alt="Eindresultaat">
-<img src="images/image 11.png" width="375px" alt="Eindresultaat">
-<img src="images/image 12.png" width="375px" alt="Eindresultaat">
-<img src="images/image 13.png" width="375px" alt="Eindresultaat">
-<img src="images/image 14.png" width="375px" alt="Eindresultaat">
+<img src="images/Image 10.png" width="375px" alt="Eindresultaat">
+<img src="images/Image 11.png" width="375px" alt="Eindresultaat">
+<img src="images/Image 12.png" width="375px" alt="Eindresultaat">
+<img src="images/Image 13.png" width="375px" alt="Eindresultaat">
+<img src="images/Image 14.png" width="375px" alt="Eindresultaat">
 
 
 ## Voortgang 3 (week 6)
