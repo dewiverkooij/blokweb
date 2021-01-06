@@ -40,12 +40,17 @@ Met de screenreader kwam ik erachter dat sommige afbeeldingen nog geen alt tekst
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Uiteindelijk voel ik me nu steeds meer vertrouwd met html en css. Javascript blijft lastig, maar is toch ook goed gekomen. Ik ben heel blij met het resultaat dat ik heb kunnen opleveren, maar ook heel blij dat ik er nu weer even vanaf ben ;). 
 
 **Screenshot(s):**
 
 -screenshot(s) van je eindresultaat-
 
+<img src="images/image 10.png" width="375px" alt="Eindresultaat">
+<img src="images/image 11.png" width="375px" alt="Eindresultaat">
+<img src="images/image 12.png" width="375px" alt="Eindresultaat">
+<img src="images/image 13.png" width="375px" alt="Eindresultaat">
+<img src="images/image 14.png" width="375px" alt="Eindresultaat">
 
 
 ## Voortgang 3 (week 6)
