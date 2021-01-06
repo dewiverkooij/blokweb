@@ -24,6 +24,19 @@ JS 3-stap 2: https://codepen.io/dewi-verkooij/pen/WNxVpgq
 Grid 1: https://codepen.io/dewi-verkooij/pen/WNGbobY?editors=1100  
 Grid 2: https://codepen.io/dewi-verkooij/pen/YzGPpEY?editors=1100  
 
+## Toegankelijkheid
+
+Om te testen of de toegankelijkheid van de website goed is, heb ik een aantal dingen gedaan. Als eerste heb ik een screenreader op mijn laptop aangezet. Ik vond het erg grappig om een keer te zien hoe zoiets werkt. Het lijkt me wel heel lastig om afhankelijk te zijn van een screenreader, want ik kan het zelf echt totaal niet volgen. De bevindingen die ik gedaan heb zijn:
+
+- Het is heel belangrijk om alt teksten toe te voegen aan je afbeeldingen, want de screenreader leest deze voor en het is voor blinden de enige manier om te weten wat er op een afbeelding te zien is. 
+- Als je een tabel of een lijst maakt ziet de screenreader dit ook echt als een tabel of een lijst. Hij leest in een lijst bijvoorbeeld eerst voor hoeveel items de lijst heeft, en ook bij elk punt geeft hij aan dat hij bv bij punt 4 van de 12 is. Dit is heel overzichtelijk. In een tabel werkt dit op ongeveer dezelfde manier.
+- Als je een input veld hebt, vertelt de screenreader ook aan jou dat je iets kan typen en welke toetsen je moet indrukken om het in te sturen. Dit werkt handig.
+- Ik vind over het algemeen niet dat een screenreader duidelijk is. Als ik blind zou zijn zou ik geen idee hebben waar ik was, waar ik heen moest enz. Ik denk dat het handiger is als je als web ontwikkelaar echt kan aangeven welke delen ook relevant zijn voor blinde mensen, zodat alle onduidelijkheden eruit gefilterd worden. Nu leest de screenreader namelijk ook namen van iconen voor en de tekst die daar naast staat, maar als blind persoon ga je dit nooit begrijpen.
+
+Ik heb ook getest of alles bediend kon worden met de tab toets. Bij de elementen waar dit nog niet mogelijk was heb ik tabindex="0" toegevoegd in de html. Hij maakt dan zelf een logische volgorde van de tabs. Als je de volgorde wil beïnvloeden kan je andere getallen invullen en zo zelf een volgorde creeëren.
+
+Met de screenreader kwam ik erachter dat sommige afbeeldingen nog geen alt teksten hadden, deze heb ik toegevoegd. 
+
 
 ## Eindgesprek (week 7/8)
 
