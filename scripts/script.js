@@ -15,7 +15,7 @@ var kruisklik = document.getElementById('kruisklik');
 kruisklik.addEventListener('click', sluitZoek);
 
 function openZoek() {
-    var body = document.body;
+    var body = document.body; 
     body.classList.add('open-zoekbalk');
 }
 

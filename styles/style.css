@@ -2,10 +2,12 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
+/* standaard */
 body {
     margin: 0;
 }
 
+/* menubalk */
 header {
     background-color: #FFFF64;
     height: 41px;
@@ -14,7 +16,6 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 5px 12px;
-    z-index: 1000;
 }
 
 /* wanneer zoekbalk in beeld komt verdwijnt de header */
@@ -22,21 +23,25 @@ body.open-zoekbalk header {
     display: none;
 }
 
+/* linker icoontjes */
 header div {
     flex: 1;
     display: flex;
     align-items: center;
 }
 
+/* zoek icoontje */
 header div span:nth-child(2) {
     margin-left: 10px;
 }
 
+/* logo */
 header img {
     height: 100%;
     flex: 1;
 }
 
+/* sign up link */
 header a {
     font-size: .8em;
     font-weight: bold;
@@ -45,41 +50,7 @@ header a {
     text-transform: uppercase;
 }
 
-.lyrics main > section:first-of-type {
-    position: relative;
-}
-
-.lyrics main > section:first-of-type > div:first-of-type {
-    position: absolute;
-    
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-
-    background-image: url('../images/album-cover.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    z-index: -1;
-}
-
-.lyrics main > section:first-of-type > div:first-of-type::after {
-    content: '';
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-
-    background-image: linear-gradient(to bottom,rgba(0,0,0,0.6) 30%,#000 80%);
-}
-
-.lyrics main > section:first-of-type div:nth-child(2) {
-    color: white;
-    z-index: 1;
-}
-
+/* titels instellen */
 .lyrics h1, h2, h3 {
     margin: 0;
 }
@@ -101,6 +72,46 @@ header a {
     color: #e9e9e9;
 }
 
+/* lied info deel */
+.lyrics main > section:first-of-type {
+    position: relative; /*zodat background img relatief aan dit element gepositioneerd kan worden */
+}
+
+/* extra div vanwege gradient die toegevoegd moet worden */
+.lyrics main > section:first-of-type > div:first-of-type {
+    position: absolute; /* zodat background img de hele achtergrond kan vullen */
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background-image: url('../images/album-cover.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    z-index: -1;
+}
+
+/* gradient over achtergrond afbeelding */
+.lyrics main > section:first-of-type > div:first-of-type::after {
+    content: ''; /* after komt alleen in beeld als het content heeft */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.6) 30%,#000 80%);
+}
+
+/* alle tekst in de banner */
+.lyrics main > section:first-of-type div:nth-child(2) {
+    color: white;
+    z-index: 1;
+}
+
+/* info tekstje met 2 borders */
 .lyrics main section:first-of-type div:nth-child(2) p {
     padding: 15px;
     font-size: .8em;
@@ -110,6 +121,7 @@ header a {
     border-top: 1px solid #e9e9e9;
 }
 
+/* read more link */
 .lyrics main section:first-of-type div:nth-child(2) p a {
     display: block;
     color: #FFFF64;
@@ -117,34 +129,36 @@ header a {
     text-transform: lowercase;
 }
 
+/* icoontje van read more link */
 .lyrics main section:first-of-type div:nth-child(2) p a span {
     font-size: .8em;
     vertical-align: middle;
     font-weight: lighter;
 }
 
+/* verified commentary blokje */
 .lyrics main section:first-of-type div:nth-child(2) > span {
     display: flex;
     align-items: center;
     padding: 0px 15px;
 }
 
+/* verified commentary tekst , directe span in div, span in die span, span in die span*/
 .lyrics main section:first-of-type div:nth-child(2) > span > span span {
     display: block;
-}
-
-.lyrics main section:first-of-type div:nth-child(2) > span > span span {
     text-transform: uppercase;
     font-size: .7em;
     color: #9a9a9a;
     letter-spacing: 0.05em;
 }
 
+/* Jorja Smith tekst naast fototje */
 .lyrics main section:first-of-type strong {
     font-size: .9em;
     font-weight: bold;
 }
 
+/* jorja profielfoto */
 .lyrics main > section:first-of-type img {
     width: 35px;
     height: 35px;
@@ -153,6 +167,7 @@ header a {
     border: 2px solid #38ef51;
 }
 
+/* onderste deel banner */
 .lyrics main section:first-of-type div:nth-child(2) div {
     padding: 15px;
     margin-top: 10px;
@@ -162,26 +177,30 @@ header a {
     align-items: center;
 }
 
+/* play this song knop */
 .lyrics main section:first-of-type div:nth-child(2) div a {
     text-decoration: none;
     color: #e9e9e9;
 }
 
-
+/* icoontje */
 .lyrics main section:first-of-type div:nth-child(2) div a span:first-child {
     vertical-align: middle;
 }
 
+/* play this song tekst */
 .lyrics main section:first-of-type div:nth-child(2) div a span:nth-child(2) {
     text-transform: uppercase;
     font-size: .8em;
 }
 
+/* statistieken */
 .lyrics main section:first-of-type div:nth-child(2) div > span > span {
     font-size: .7em;
     color: #9a9a9a;
 }
 
+/* icoontjes van statistieken */
 .lyrics main section:first-of-type div:nth-child(2) div > span > span span:first-child {
     vertical-align: middle;
     font-size: .95em;
@@ -191,34 +210,37 @@ header a {
 
 /* Lyrics deel */
 
+/* hele section padding aan linker en rechter kant */
 .lyrics main > section:nth-of-type(2) {
     padding: 0px 15px;
-
 }
 
+/* alle p in lyrics deel */
 .lyrics main > section:nth-of-type(2) p {
-    white-space: pre-line;
+    white-space: pre-line; /* zodat enters in html hetzelfde zijn op de site */
     line-height: 1.8;
     font-size: .9em;
 }
 
+/* grijze tekst */
 .lyrics main > section:nth-of-type(2) p span {
     background-color: #e9e9e9;
-    box-shadow: 0.01em 0 0 #e9e9e9, -0.01em 0 0 #e9e9e9;
 }
 
+/* groene tekst */
 .lyrics main > section:nth-of-type(2) p span.verified {
     background-color: #99f2a5;
-    box-shadow: 0.01em 0 0 #99f2a5, -0.01em 0 0 #99f2a5;
 }
 
-/* Rest */
+/* Lyrics deel einde */
 
+/* youtube video */
 .lyrics main > section:nth-of-type(3) {
     padding: 15px;
     border-top: 20px lightgrey solid;
 }
 
+/* h3 op lyrics pagina */
 .lyrics h3 {
     text-transform: uppercase;
     color: #9a9a9a;
@@ -228,19 +250,23 @@ header a {
     letter-spacing: 0.05em;
 }
 
+/* genius video blokje */
 .lyrics main > section:nth-of-type(4) {
     padding: 15px;
     border-top: 20px lightgrey solid;
 }
 
+/* blokje met alleen de foto met play button */
 .lyrics main > section:nth-of-type(4) div {
     position: relative;
 }
 
+/* foto van Jorja Smith */
 .lyrics main > section:nth-of-type(4) div img {
     width: 100%;
 }
 
+/* play button */
 .lyrics main > section:nth-of-type(4) div span {
     position: absolute;
     bottom: 15px;
@@ -250,21 +276,25 @@ header a {
     font-size: 2em;
 }
 
+/* titel onder de video */
 .lyrics main > section:nth-of-type(4) strong {
     text-transform: capitalize;
     display: block;
     margin-top: 5px;
 }
 
+/* ask us a question about this song deel */
 .lyrics main > section:nth-of-type(5) {
     padding: 15px;
     border-top: 20px lightgrey solid;
 }
 
+/* h3 had hier opeens geen upppercase */
 .lyrics main > section:nth-of-type(5) h3 {
     text-transform: none;
 }
 
+/* ask a question input */
 .lyrics input {
     box-sizing: border-box;
     width: 100%;
@@ -273,18 +303,21 @@ header a {
     border-style: solid;
 }
 
+/* roze uitklapteksten */
 .lyrics main section:nth-of-type(6) section{
     padding: 15px;
     border-top: 20px lightgrey solid;
     display: block;
 }
 
+/* flex de tekst met het pijltje */
 .lyrics main section:nth-of-type(6) section div {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+/* roze titels */
 .lyrics main section:nth-of-type(6) section h3 {
     color: rgb(255, 65, 128);
     font-size: 0.8em;
@@ -292,6 +325,7 @@ header a {
     margin-bottom: 0;
 }
 
+/* uitklaptekst nog niet zichtbaar */
 .lyrics main section:nth-of-type(6) section p {
     line-height: 1.6em;
     font-size: 0.9em;
@@ -305,6 +339,7 @@ header a {
     display: block;
 }
 
+/* pijltje */
 .lyrics main section:nth-of-type(6) section span {
     color: rgb(255, 65, 128);
     font-size: 2em;
@@ -318,17 +353,20 @@ header a {
     transform: rotate(180deg);
 }
 
+/* more on genius sectie */
 .lyrics main section:nth-of-type(7) {
     padding: 15px;
     border-top: 20px lightgrey solid;
 }
 
+/* elk item eigen div (video en tekst) */
 .lyrics main section:nth-of-type(7) > div {
     display: flex;
     align-items: center;
     margin-bottom: 5px;
 }
 
+/* afbeelding met play button */
 .lyrics main section:nth-of-type(7) div > div {
     position: relative;
     margin-right: 10px;
@@ -336,6 +374,7 @@ header a {
     flex-shrink: 0;
 }
 
+/* afbeelding */
 .lyrics main section:nth-of-type(7) div > div img {
     width: 100%;
     filter: brightness(50%);
@@ -346,6 +385,7 @@ header a {
     filter: brightness(100%);
 }
 
+/* play button */
 .lyrics main section:nth-of-type(7) div > div span {
     position: absolute;
     bottom: 10px;
@@ -360,24 +400,29 @@ header a {
     display: none;
 }
 
+/* tekst naast de afbeeldingen */
 .lyrics main section:nth-of-type(7) div > p {
     margin: 0;
 }
 
+/* tabel sectie */
 .lyrics main section:nth-of-type(8) {
     padding: 15px;
     border-top: 20px lightgrey solid;
 }
 
+/* tabel */
 .lyrics main section:nth-of-type(8) table {
     border-collapse: collapse;
     width: 100%;
 }
 
+/* hele regel */
 .lyrics main section:nth-of-type(8) tr {
     border-top: 1px solid lightgrey;
 }
 
+/* linker kolom */
 .lyrics main section:nth-of-type(8) th {
     color: grey;
     font-size: .8em;
@@ -388,6 +433,7 @@ header a {
     padding-bottom: 5px;
 }
 
+/* rechter kolom */
 .lyrics main section:nth-of-type(8) td {
     color: grey;
     font-size: .8em;
@@ -397,20 +443,24 @@ header a {
     padding-bottom: 5px;
 }
 
+/* linkjes in de rechter kolom */
 .lyrics main section:nth-of-type(8) a {
     text-decoration: none;
     color: rgb(95, 95, 243);
 }
 
+/* album lijst sectie */
 .lyrics main section:nth-of-type(9) {
     padding: 15px;
     border-top: 20px lightgrey solid;
 }
 
+/* album cover */
 .lyrics main section:nth-of-type(9) img {
     width: 20%;
 }
 
+/* div met foto en tekst flexen */
 .lyrics main section:nth-of-type(9) > div {
     display: flex;
     justify-content: left;
@@ -418,21 +468,25 @@ header a {
     align-items: center;
 }
 
+/* teksten naast cover */
 .lyrics main section:nth-of-type(9) span {
     display: block;
     letter-spacing: 0.05em;
     margin-left: 20px;
 }
 
+/* Lost & Found */
 .lyrics main section:nth-of-type(9) span:nth-of-type(1) {
     font-size: 1.3em;
 }
 
+/* Jorja Smith */
 .lyrics main section:nth-of-type(9) span:nth-of-type(2) {
     font-size: 0.8em;
     text-transform: uppercase;
 }
 
+/* ordered list */
 .lyrics main section:nth-of-type(9) ol {
     padding: 0;
     list-style-position: inside;
@@ -441,6 +495,7 @@ header a {
     line-height: 1.8em;
 }
 
+/* liedje waar je nu bent */
 .lyrics main section:nth-of-type(9) ol .current {
     color: grey;
 }
@@ -575,21 +630,23 @@ header a {
     left: 20px;
     right: 20px;
     background-color: white;
-    box-sizing: border-box;
     border: 2px solid black;
     padding: 10px;
 }
 
+/* logo en naam liedje deel */
 .lyrics main section:nth-of-type(12) div:nth-of-type(1) {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* logo */
 .lyrics main section:nth-of-type(12) img {
     height: 12px;
 }
 
+/* naam liedje incl grijs lijntje */
 .lyrics main section:nth-of-type(12) > div:nth-of-type(1) span {
     margin-left: 8px;
     border-left: 3px solid #e0e0e0;
@@ -597,6 +654,7 @@ header a {
     font-size: .8em;
 }
 
+/* hele player gedeelte */
 .lyrics main section:nth-of-type(12) div:nth-of-type(2) {
     display: flex;
     justify-content: stretch;
@@ -604,15 +662,17 @@ header a {
     margin-top: 10px;
 }
 
+/* lijntje */
 .lyrics main section:nth-of-type(12) div:nth-of-type(2) div {
     height: 2px;
     background-color: black;
     position: relative;
-    flex-grow: 1;
+    flex-grow: 1; /* lijn neemt alle overige ruimte die hij kan nemen */
     margin-left: 10px;
     margin-right: 10px;
 }
 
+/* bolletje op het lijntje */
 .lyrics main section:nth-of-type(12) div:nth-of-type(2) div span {
     width: 15px;
     height: 15px;
@@ -639,9 +699,7 @@ header a {
     margin-left: 10px;
 }
 
-
-
-
+/* footer deel */
 
 footer {
     background-color: black;
@@ -650,6 +708,7 @@ footer {
     padding-bottom: 150px;
 }
 
+/* gele linkjes */
 footer section:nth-of-type(1) a {
     text-decoration: none;
     color: rgb(255, 244, 83);
@@ -659,6 +718,7 @@ footer section:nth-of-type(1) a {
     margin-right: 6px;
 }
 
+/* copyright deel */
 footer p {
     color: rgb(248, 248, 248);
     margin-top: 0;
@@ -666,6 +726,7 @@ footer p {
     font-size: .9em;
 }
 
+/* blauwe linkjes */
 footer section:nth-of-type(2) a {
     text-decoration: none;
     color: rgb(95, 95, 243);
@@ -674,25 +735,14 @@ footer section:nth-of-type(2) a {
     font-size: .9em;
 }
 
+/* eerste blauwe linkje */
 footer section:nth-of-type(2) a:nth-of-type(1) {
     text-transform: uppercase;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* profiel pagina */
 
+/* banner */
 .profiel main > section:first-of-type {
     background-image: url('../images/jorjamicrofoon.jpg');
     background-size: cover;
@@ -702,16 +752,18 @@ footer section:nth-of-type(2) a:nth-of-type(1) {
     z-index: -1;
 }
 
+/* profielfoto in de banner */
 .profiel main > section:first-of-type img {
     width: 100px;
     border-radius: 50%;
     border: 2px solid #38ef51;
-    position: relative;
-    top: 15px;
-    right: 5px;
+    position: relative; /* relatief aan zichzelf positioneren */
+    top: 15px; /* 15px naar beneden */
+    right: 5px; /* 5px naar links */
 
 }
 
+/* gradient op de banner */
 .profiel main > section:first-of-type::after {
     content: '';
     position: absolute;
@@ -723,6 +775,7 @@ footer section:nth-of-type(2) a:nth-of-type(1) {
     background-image: linear-gradient(to bottom,rgba(0,0,0,0.6) 30%,#000 80%);
 }
 
+/* h1 is hier anders dan op andere pagina */
 .profiel h1 {
     padding-left: 15px;
     padding-right: 15px;
@@ -730,21 +783,25 @@ footer section:nth-of-type(2) a:nth-of-type(1) {
     margin-bottom: 0;
 }
 
+/* Jorja Smith en 1,788 flex (h1 is normaal block) */
 .profiel main > section:nth-of-type(2) div {
     display: flex;
     align-items: flex-end;
 }
 
+/* 1,788 */
 .profiel main > section:nth-of-type(2) div span {
     background-color: #FFFF64;
     font-size: 0.8em;
 }
 
+/* @JorjaSmith en verified artist */
 .profiel main > section:nth-of-type(2) > span {
     padding-left: 15px;
     color: grey;
 }
 
+/* vinkje */
 .profiel main > section:nth-of-type(2) > span .material-icons {
     background-color: #38ef51;
     color: white;
@@ -753,6 +810,7 @@ footer section:nth-of-type(2) a:nth-of-type(1) {
     margin-right: 4px;
 }
 
+/* intro tekst deel */
 .profiel main > section:nth-of-type(3) {
     margin: 15px;
     background-color: #e9e9e9;
@@ -763,16 +821,19 @@ footer section:nth-of-type(2) a:nth-of-type(1) {
     justify-content: stretch;
 }
 
+/* pijltje */
 .profiel main > section:nth-of-type(3) .material-icons {
     color: grey;
 }
 
+/* intro tekstje */
 .profiel main > section:nth-of-type(3) p {
     margin: 0;
     font-size: .8em;
     margin-bottom: 10px;
 }
 
+/* ionland17 profielfototje */
 .profiel main > section:nth-of-type(3) div img {
     display: inline-block;
     height: 15px;
@@ -782,16 +843,19 @@ footer section:nth-of-type(2) a:nth-of-type(1) {
     margin-right: 5px;
 }
 
+/* top scholar */
 .profiel main > section:nth-of-type(3) div > span > span:nth-of-type(1) {
     text-transform: uppercase;
     color: grey;
     font-size: .8em;
 }
 
+/* ionland17 */
 .profiel main > section:nth-of-type(3) div > span > span:nth-of-type(2) span{
     font-size: .8em;
 }
 
+/* read jorja smith's verified annotations */
 .profiel main > section:nth-of-type(4) a {
     color: #38ef51;
     display: inline-block;
@@ -803,24 +867,28 @@ footer section:nth-of-type(2) a:nth-of-type(1) {
     margin-bottom: 15px;
 }
 
+/* carroussel deel */
 .profiel main > section:nth-of-type(5) {
-    overflow-x: auto;
+    overflow-x: auto; /* zodat hij buiten het beeld kan */
     display: flex;
     align-items: flex-start;
     background-color: #e9e9e9;
 }
 
+/* carroussel afbeeldingen */
 .profiel main > section:nth-of-type(5) img {
     height: 80px;
     border: 1px solid grey;
     box-shadow: 5px 5px 0px lightgrey;
 }
 
+/* carroussel afbeeldingen met tekst */
 .profiel main > section:nth-of-type(5) div {
     margin: 5px; 
     padding-right: 7.5px;
 }
 
+/* tekst onder afbeelding */
 .profiel main > section:nth-of-type(5) p {
     color: grey;
     font-size: .7em;
@@ -828,6 +896,7 @@ footer section:nth-of-type(2) a:nth-of-type(1) {
     font-weight: bold;
 }
 
+/* alle h3 op deze pagina */
 .profiel h3 {
     text-transform: uppercase;
     color: grey;
@@ -837,20 +906,24 @@ footer section:nth-of-type(2) a:nth-of-type(1) {
     letter-spacing: 0.05em;
 }
 
+/* popular jorja smith songs deel */
 .profiel main > section:nth-of-type(6) {
     background-color: #e9e9e9;
     padding-top: 30px;
 }
 
+/* popular jorja smith songs tekst */
 .profiel main > section:nth-of-type(6) h3 {
     padding-left: 15px;
 }
 
+/* afbeeldingen */
 .profiel main > section:nth-of-type(6) img {
     width: 80px;
     margin-right: 10px;
 }
 
+/* 1 liedje deel */
 .profiel main > section:nth-of-type(6) > div {
     display: flex;
     align-items: flex-start;
@@ -858,12 +931,14 @@ footer section:nth-of-type(2) a:nth-of-type(1) {
     margin-bottom: 4px;
 }
 
+/* liedje titel */
 .profiel main > section:nth-of-type(6) strong {
     display: block;
     font-weight: normal;
     margin-top: 5px;
 }
 
+/* artiesten */
 .profiel main > section:nth-of-type(6) span {
     font-size: .7em;
     display: block;
@@ -874,7 +949,7 @@ footer section:nth-of-type(2) a:nth-of-type(1) {
     margin-top: 15px;
 }
 
-
+/* show all songs by jorja smith */
 .profiel main > section:nth-of-type(6) a {
     background-color: white;
     padding: 5px;
@@ -885,6 +960,7 @@ footer section:nth-of-type(2) a:nth-of-type(1) {
     text-decoration: none;
 }
 
+/* oogjes en pijltje in onderste link */
 .profiel main > section:nth-of-type(6) .material-icons {
     vertical-align: middle;
     display: inline-block;
@@ -897,11 +973,13 @@ footer section:nth-of-type(2) a:nth-of-type(1) {
     font-size: 2.5em;
 }
 
+/* popular jorja smith albums deel */
 .profiel main > section:nth-of-type(7) {
     background-color: #e9e9e9;
     padding: 15px;
 }
 
+/* alle albums */
 .profiel main > section:nth-of-type(7) > div {
     display: flex;
     flex-wrap: wrap;
@@ -909,6 +987,7 @@ footer section:nth-of-type(2) a:nth-of-type(1) {
     align-items: flex-start;
 }
 
+/* album foto en tekst deel */
 .profiel main > section:nth-of-type(7) > div div {
     width: 30%;
     font-size: .6em;
@@ -916,19 +995,23 @@ footer section:nth-of-type(2) a:nth-of-type(1) {
     margin-bottom: 15px;
 }
 
+/* album foto */
 .profiel main > section:nth-of-type(7) img {
     width: 100%;
 }
 
+/* titel van album */
 .profiel main > section:nth-of-type(7) strong {
     font-weight: normal;
 }
 
+/* jaartal */
 .profiel main > section:nth-of-type(7) span {
     display: block;
     color: grey;
 }
 
+/* show all albums by jorja smith */
 .profiel main > section:nth-of-type(8) a {
     background-color: white;
     padding: 5px;
@@ -939,6 +1022,7 @@ footer section:nth-of-type(2) a:nth-of-type(1) {
     text-decoration: none;
 }
 
+/* pijltje show all albums by jorja smith */
 .profiel main > section:nth-of-type(8) .material-icons {
     vertical-align: middle;
     color: grey;
@@ -953,6 +1037,7 @@ footer section:nth-of-type(2) a:nth-of-type(1) {
     border-top: 5px solid #e0e0e0;
 }
 
+/* pijltjes in breadcrumbs */
 .profiel main section:nth-of-type(9) span {
     vertical-align: middle;
     color: lightgrey;
@@ -960,16 +1045,9 @@ footer section:nth-of-type(2) a:nth-of-type(1) {
 }
 
 
-
-
-
-
-
-
-
-
 /* animaties */
 
+/* hamburger menu uitgeklapt */
 nav {
     width: 100%;
     background-color: black;
@@ -982,12 +1060,14 @@ nav.open {
     display: block;
 }
 
+/* hele lijst items */
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
+/* alle losse items */
 nav li {
     padding-left: 20px;
     padding-top: 3px;
@@ -995,13 +1075,15 @@ nav li {
     border-bottom: 1px solid #414141;
 }
 
-nav a {
+/* link in het losse item */
+nav li a {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
     letter-spacing: 0.1em;
 }
 
+/* social media iconen */
 nav img {
     display: inline-block;
     height: 1em;
@@ -1010,8 +1092,7 @@ nav img {
     vertical-align: middle;
 }
 
-
-
+/* zoekbalk deel */
 #zoekbalk {
     height: 41px;
     background-color: #FFFF64;
@@ -1022,10 +1103,12 @@ nav img {
     justify-content: stretch;
 }
 
+/* als de zoekbalk aangeklikt is */
 body.open-zoekbalk #zoekbalk {
     display: flex;
 }
 
+/* input veld */
 #zoekbalk input {
     flex-grow: 1;
     border: none;
@@ -1036,6 +1119,7 @@ body.open-zoekbalk #zoekbalk {
     font-size: 1em;
 }
 
+/* kleur placeholder tekst */
 #zoekbalk input::placeholder {
     color: #e0e0e0;
 }
